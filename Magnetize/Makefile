@@ -1,0 +1,10 @@
+proj1: pos.h pos.c board.h board.c logic.h logic.c evidence.c
+	clang -Wall -g -O0 -o proj1 pos.c board.c logic.c evidence.c
+evidence: pos.h pos.c board.h board.c logic.h logic.c evidence.c
+	clang -Wall -g -O0 -o evidence pos.c board.c logic.c evidence.c
+play: pos.h pos.c board.h board.c logic.h logic.c play.c
+	clang -Wall -g -O0 -o play pos.c board.c logic.c play.c
+clean:
+	rm -rf evidence *.o *~ *dSYM 
+
+
