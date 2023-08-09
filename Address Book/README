@@ -1,0 +1,24 @@
+Besides this README, this directory includes the following files:
+
+- a Makefile for the lab
+
+- contact-info.csv, a file with randomly-generated tab-delimited
+  fictional contact information; any similarities to actual persons
+  are coincidental
+
+- adrbook.h, a header file including struct definitions and
+  function prototypes for vcard and bst operations
+
+- vcard.c: unfinished
+
+- bst.c: unfinished
+
+- shell.h and shell.c, simple common shell actions 
+
+- cmd.h and cmd.c, datatype for user commands
+
+- adrbook.c, which runs a shell "adrbook" for interacting with the 
+  binary search tree address book
+
+To be clear: the only files you need to edit for this lab are vcard.c
+and bst.c.
